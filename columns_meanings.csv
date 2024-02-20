@@ -1,0 +1,12 @@
+﻿arpu_6,Average Revenue Per Customer. (toal revenue/ number of subscribers),,,,,,extracting features from the recharge and data recharge columns,"taking 1st september as a reference date to create the number of days,
+ since the last recharge."
+arpu_7,Average Revenue Per Customer. (toal revenue/ number of subscribers),,,,,,"we have total 6 columns of recharge information,
+ which are like recharge information and data recharge information of months 6,7,8now I am trying to extract 2 features",
+arpu_8,Average Revenue Per Customer. (toal revenue/ number of subscribers),,,,,,"1. 'date_of_last_rech'
+2. 'date_of_last_rech_data'",
+arpu_9,,,,,,,"the data of last recharge is nothing but the most recent date of recharge among 6,7,8
+we will start with 8th month, if missing data is found in 8th then 7th month will be last recharge date, if 7th is also missed we will assign the 6th month as the last recharge date",
+,,,,,,,,
+,,,,,,,,
+,,,,,,,"derived_total_rech_num
+this column tells us how many time the customer did the recharge",
